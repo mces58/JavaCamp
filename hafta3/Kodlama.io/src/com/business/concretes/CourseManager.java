@@ -56,7 +56,7 @@ public class CourseManager implements CourseService {
 		System.out.println("Deleted course: " + course.getName());
 	}
 
-	// display loggers
+	// display courses
 	@Override
 	public void printCourses() {
 		for (Course course : courses) {
