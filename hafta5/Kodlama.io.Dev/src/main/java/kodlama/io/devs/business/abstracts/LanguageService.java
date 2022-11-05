@@ -21,6 +21,7 @@ public interface LanguageService {
 
 	// veriyi sil, silinen veriyi geri donder
 	public LanguageResponse deleteById(int id);
-
+	
+	// veriyi isme gore bul
 	public Language findByName(String languageName);
 }
